@@ -1,0 +1,58 @@
+// Here you can easily change your sites's color scheme.
+// To give it a try, uncomment some of the lines below rebuild your blog, and see how it works.
+// If you need a handy color picker try http://hslpicker.com
+
+//$header-bg: #263347;
+//$subtitle-color: lighten($header-bg, 58);
+//$nav-bg: desaturate(lighten(#8fc17a, 18), 5);
+//$nav-bg-front: image-url('noise.png');
+//$nav-bg-back: linear-gradient(lighten($nav-bg, 8), $nav-bg, darken($nav-bg, 11));
+//$sidebar-bg: desaturate(#eceff5, 8);
+//$sidebar-link-color: saturate(#526f9a, 10);
+//$sidebar-link-color-hover: darken(#7ab662, 9);
+//$footer-bg: #ccc !default;
+//$footer-bg-front: image-url('noise.png');
+//$footer-bg-back: linear-gradient(lighten($footer-bg, 8), $footer-bg, darken($footer-bg, 11));
+
+
+
+/* If you want to tweak the Solarized colors you can do that here */
+$base03:          #272822; 
+$base02:          #272822; 
+$base01:          #586e75;
+$base0:           #839496; 
+$base1:           #93a1a1; 
+$base2:           #eee8d5; 
+$base3:           #fdf6e3; 
+$solar-yellow:    #f92672;
+$solar-orange:    #cb4b16;
+$solar-red:       #fff;
+$solar-magenta:   #d33682;
+$solar-violet:    #6c71c4;
+$solar-blue:      #268bd2;
+$solar-cyan:      #e6db74;
+$solar-green:     #859900;
+// Custom
+$number:          #AE81FF;
+$err:             #960050;
+$err_bg:          #1e0010;
+$comment:         #75715e; 
+$constant:        #AE81FF;
+$keyword:         #66d9ef;
+$operator:        #f92672;
+$punctuation:     #f8f8f2;
+$name:            #f8f8f2;
+$name_attribute:  #a6e22e;
+$name_class:      #a6e22e;
+$name_constant:   #66d9ef;
+$name_exception:  #a2e22e;
+$name_function:   #a2e22e;
+$name_other:      #a2e22e;
+$name_tag:        #f92672;
+$string:          #e6db74;
+$string_escape:   #ae81ff;
+
+/* Non highlighted code colors */
+//$pre-bg: $base03;
+//$pre-border: darken($base02, 5);
+//$pre-color: $base1;

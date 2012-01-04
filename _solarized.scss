@@ -1,0 +1,48 @@
+$base03:          #002b36 !default; 
+$base02:          #073642 !default; 
+$base01:          #586e75 !default; 
+$base0:           #839496 !default; 
+$base1:           #93a1a1 !default;
+$base2:           #eee8d5 !default; 
+$base3:           #fdf6e3 !default; 
+$solar-yellow:    #b58900 !default;
+$solar-orange:    #cb4b16 !default;
+$solar-red:       #fff    !default;
+$solar-magenta:   #d33682 !default;
+$solar-violet:    #6c71c4 !default;
+$solar-blue:      #268bd2 !default;
+$solar-cyan:      #2aa198 !default;
+$solar-green:     #859900 !default;
+// Custom 
+$number:          #fff !default;
+$err:             #fff !default;
+$err_bg:          #fff !default;
+$constant:        #fff !default; 
+$comment:         #fff !default;
+$keyword:         #fff !default;
+$operator:        #fff !default;
+$punctuation:     #fff !default;
+$name:            #fff !default;
+$name_attribute:  #fff !default;
+$name_class:      #fff !default;
+$name_constant:   #fff !default;
+$name_exception:  #fff !default;
+$name_function:   #fff !default;
+$name_other:      #fff !default;
+$name_tag:        #fff !default;
+$string:          #fff !default;
+$string_escape:   #fff !default;
+
+
+
+
+
+
+$solarized: dark !default;
+
+/* non highlighted code colors */
+$pre-bg: $base03 !default;
+$pre-border: darken($base02, 5) !default;
+$pre-color: $base1 !default;
+
+

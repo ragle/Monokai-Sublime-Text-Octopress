@@ -1,0 +1,64 @@
+--- Desktop/_colors.scss	2012-01-04 20:15:59.247027001 +0200
++++ Octopress/sass/custom/_colors.scss	2012-01-04 20:08:17.347015173 +0200
+@@ -15,27 +15,42 @@
+ //$footer-bg-back: linear-gradient(lighten($footer-bg, 8), $footer-bg, darken($footer-bg, 11));
+ 
+ 
+-/* To use the light Solarized highlighting theme uncomment the following line */
+-//$solarized: light;
+ 
+ /* If you want to tweak the Solarized colors you can do that here */
+-//$base03:          #002b36; //darkest blue
+-//$base02:          #073642; //dark blue
+-//$base01:          #586e75; //darkest gray
+-//$base00:          #657b83; //dark gray
+-//$base0:           #839496; //medium gray
+-//$base1:           #93a1a1; //medium light gray
+-//$base2:           #eee8d5; //cream
+-//$base3:           #fdf6e3; //white
+-//$solar-yellow:    #b58900;
+-//$solar-orange:    #cb4b16;
+-//$solar-red:       #dc322f;
+-//$solar-magenta:   #d33682;
+-//$solar-violet:    #6c71c4;
+-//$solar-blue:      #268bd2;
+-//$solar-cyan:      #2aa198;
+-//$solar-green:     #859900;
+-
++$base03:          #272822; 
++$base02:          #272822; 
++$base01:          #586e75;
++$base0:           #839496; 
++$base1:           #93a1a1; 
++$base2:           #eee8d5; 
++$base3:           #fdf6e3; 
++$solar-yellow:    #f92672;
++$solar-orange:    #cb4b16;
++$solar-red:       #fff;
++$solar-magenta:   #d33682;
++$solar-violet:    #6c71c4;
++$solar-blue:      #268bd2;
++$solar-cyan:      #e6db74;
++$solar-green:     #859900;
++// Custom
++$number:          #AE81FF;
++$err:             #960050;
++$err_bg:          #1e0010;
++$comment:         #75715e; 
++$constant:        #AE81FF;
++$keyword:         #66d9ef;
++$operator:        #f92672;
++$punctuation:     #f8f8f2;
++$name:            #f8f8f2;
++$name_attribute:  #a6e22e;
++$name_class:      #a6e22e;
++$name_constant:   #66d9ef;
++$name_exception:  #a2e22e;
++$name_function:   #a2e22e;
++$name_other:      #a2e22e;
++$name_tag:        #f92672;
++$string:          #e6db74;
++$string_escape:   #ae81ff;
+ 
+ /* Non highlighted code colors */
+ //$pre-bg: $base03;
