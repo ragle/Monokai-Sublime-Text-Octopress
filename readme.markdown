@@ -11,7 +11,7 @@ The patch worked great, except that it looked much different (for PHP and JavaSc
 
 So - I made a few adjustments. 
 
-##Languages and Consistancy
+##Languages and Consistency
 Most of the code I write is either JavaScript or PHP, although I do poke at projects written in C or Python with sticks of varying lengths from time to time. 
 
 So - this patch is optimized for PHP and JavaScript - even then, the theme isn't perfect due to some differences between sublime text and pygments. 
@@ -34,7 +34,7 @@ In any case, all 4 of the languages I tested turned out pretty well. You can see
 ![Python](http://i.imgur.com/07szc.png)
 
 
-##Installation 
+##Apply the Patch 
 
 Go to your home directory: 
 ```
