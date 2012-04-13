@@ -43,7 +43,7 @@ $ cd $HOME
 
 Clone into the repo
 ```
-$ git clone https://sanukcode@github.com/sanukcode/Monokai-Sublime-Text-Octopress.git
+$ git clone git://github.com/sanukcode/Monokai-Sublime-Text-Octopress.git
 ```
 
 Go to wherever you installed octopress (note - the patch works on unmodified, fresh installations. No promises if you have tweaked any of the files we are patching...)
