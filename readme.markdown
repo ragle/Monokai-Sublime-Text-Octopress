@@ -20,9 +20,9 @@ For example - in PHP, while Sublime Text differentiates between the keywords "cl
 
 Then there were conflicts between languages. Pygments sometimes assigns the same class for different features in different languges. For example - both non-stdlib functions in PHP and Object properties in JavaScript share the same class (.nx). I actually probably should have favored JavaScript in this case - as I certainly use JavaScript object properties more regularly than PHP functions that don't belong to any class or the stdlib, but I optimized for PHP first and am too lazy to go back and regenerate diff files for patches. Feel free to knock yourself out. 
 
-Finally - there are some places where Sublime Text seems to fall short. Pygments gets it right (in my opinion) for C highlighting. For some reason, Sublime Text seems to treat the dereference, conditional and arithmetic operators as punctuation (coloring them white) while pygments appropriately assigns the .o css class (bright red)... 
+Finally - there are some places where Sublime Text seems to fall short. Pygments gets it right (in my opinion) for C highlighting. For some reason, Sublime Text treats the dereference, conditional and arithmetic operators as punctuation (coloring them white) while pygments appropriately assigns the .o css class (bright red)... 
 
-In any case, all 4 of the languages I tested turned out pretty well. You can see screenshots below that illustrate the shortcoming described above. If your particular flavor of programming isn't well supported - you might try [bdryanovski's original patch](https://github.com/bdryanovski/Octopress---Monokai).
+In any case, all 4 of the languages I tested turned out pretty well. I wasn't going for perfection (luckily), just something that somewhat resembles my typical dev environment. You can see screenshots below that illustrate the shortcoming described above. If your particular flavor of programming isn't well supported - you might try [bdryanovski's original monokai patch](https://github.com/bdryanovski/Octopress---Monokai).
 
 ##Tests
 ![JavaScript](http://i.imgur.com/PtBUU.png)
