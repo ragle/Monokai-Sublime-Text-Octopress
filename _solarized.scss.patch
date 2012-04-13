@@ -1,5 +1,7 @@
---- Desktop/_solarized.scss	2012-01-04 20:16:19.083027509 +0200
-+++ Octopress/sass/base/_solarized.scss	2012-01-04 20:08:18.867015212 +0200
+diff --git a/sass/base/_solarized.scss b/sass/base/_solarized.scss
+index 45d8fc5..500de92 100644
+--- a/sass/base/_solarized.scss
++++ b/sass/base/_solarized.scss
 @@ -1,42 +1,44 @@
 -$base03:          #002b36 !default; //darkest blue
 -$base02:          #073642 !default; //dark blue
@@ -50,7 +52,7 @@
 -$solarized: dark !default;
  
 -@if $solarized == light {
- 
+-
 -  $_base03: $base03;
 -  $_base02: $base02;
 -  $_base01: $base01;
@@ -69,6 +71,7 @@
 -  $base2:   $_base02;
 -  $base3:   $_base03;
 -}
++
 +
 +$solarized: dark !default;
  

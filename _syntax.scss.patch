@@ -1,5 +1,7 @@
---- Desktop/_syntax.scss	2012-01-04 20:15:26.079026151 +0200
-+++ Octopress/sass/partials/_syntax.scss	2012-01-04 20:08:20.087015242 +0200
+diff --git a/sass/partials/_syntax.scss b/sass/partials/_syntax.scss
+index 77ac8d7..8fb4d41 100644
+--- a/sass/partials/_syntax.scss
++++ b/sass/partials/_syntax.scss
 @@ -4,17 +4,10 @@
      text-align: right;
      font-size: 13px;
@@ -22,7 +24,7 @@
      span { color: $base01 !important; }
      padding: .8em !important;
      @include border-radius(0);
-@@ -46,13 +39,8 @@
+@@ -46,13 +39,8 @@ html .gist .gist-file {
     border: 1px solid lighten($base02, 2) !important;
     color: $base01;
     font-size: .7em !important;
@@ -38,7 +40,7 @@
     @extend .sans;
     line-height: 1.5em;
      a {
-@@ -120,15 +108,17 @@
+@@ -120,15 +108,17 @@ p, li {
    span { color: $base1 !important; }
    span { font-style: normal !important; font-weight: normal !important; }
  
@@ -61,27 +63,30 @@
 +  .k      { color: $keyword !important; }                       /* Keyword */
 +
 +  .o      { color: $operator !important; font-weight: bold !important; }                       /* Operaitor */
-+  .p      { color: $operator !important; }                                             /* Operator */
++  .p      { color: $punctuation !important; }                                             /* Operator */
    .ow     { color: $solar-cyan !important; font-weight: bold !important; }                       /* Operator.Word */
    .gd     { color: $base1 !important; background-color: mix($solar-red, $base03, 25%) !important; display: inline-block; }               /* Generic.Deleted */
    .gd .x  { color: $base1 !important; background-color: mix($solar-red, $base03, 35%) !important; display: inline-block; }               /* Generic.Deleted.Specific */
-@@ -142,40 +132,40 @@
+@@ -142,40 +132,40 @@ p, li {
    .gs     { color: $base1 !important; font-weight: bold !important; }                                       /* Generic.Strong */
    .gu     { color: $solar-violet !important; }                                          /* Generic.Subheading */
    //.gt     { color: #aa0000 }                                          /* Generic.Traceback */
 -  .kc     { color: $solar-green !important; font-weight: bold !important; }                       /* Keyword.Constant */
+-  .kd     { color: $solar-blue !important; }                       /* Keyword.Declaration */
 +  .kc     { color: $constant !important; font-weight: bold !important; }                       /* Keyword.Constant */
-   .kd     { color: $solar-blue !important; }                       /* Keyword.Declaration */
++  .kd     { color: $js_keyword !important; }                       /* Keyword.Declaration */
    .kp     { color: $solar-orange !important; font-weight: bold !important; }                       /* Keyword.Pseudo */
    .kr     { color: $solar-magenta !important; font-weight: bold !important; }                       /* Keyword.Reserved */
-   .kt     { color: $solar-cyan !important; }                       /* Keyword.Type */
+-  .kt     { color: $solar-cyan !important; }                       /* Keyword.Type */
 -  .n      { color: $solar-blue !important; }
 -  .na     { color: $solar-blue !important; }                                          /* Name.Attribute */
-+  .n      { color: $name !important; }
-+  .na     { color: $name_attribute !important; }                                          /* Name.Attribute */
-   .nb     { color: $solar-green !important; }                                          /* Name.Builtin */
+-  .nb     { color: $solar-green !important; }                                          /* Name.Builtin */
 -  .nc     { color: $solar-magenta !important;}                                                   /* Name.Class */
 -  .no     { color: $solar-yellow !important; }                                          /* Name.Constant */
++  .kt     { color: $name_attribute !important; }                       /* Keyword.Type */
++  .n      { color: $name !important; }
++  .na     { color: $name_attribute !important; }                                          /* Name.Attribute */
++  .nb     { color: $name_attribute !important; }                                          /* Name.Builtin */
 +  .nc     { color: $name_class !important;}                                                   /* Name.Class */
 +  .no     { color: $name_constant !important; }                                          /* Name.Constant */
    //.ni     { color: #800080 }                                          /* Name.Entity */
@@ -99,7 +104,8 @@
    //.vc     { color: #008080 }                                          /* Name.Variable.Class */
    .vg     { color: $solar-blue !important; }                                          /* Name.Variable.Global */
    .vi     { color: $solar-blue !important; }                                          /* Name.Variable.Instance */
-   .nv     { color: $solar-blue !important; }                                          /* Name.Variable */
+-  .nv     { color: $solar-blue !important; }                                          /* Name.Variable */
++  .nv     { color: $name !important; }                                          /* Name.Variable */
    //.w      { color: #bbbbbb }                                          /* Text.Whitespace */
 -  .mf     { color: $solar-cyan !important; }                                          /* Literal.Number.Float */
 -  .m      { color: $solar-cyan !important; }                                          /* Literal.Number */
@@ -121,7 +127,7 @@
    //.sh     { color: #d14 }                                             /* Literal.String.Heredoc */
    .si     { color: $solar-blue !important; }                                             /* Literal.String.Interpol */
    //.sx     { color: #d14 }                                             /* Literal.String.Other */
-@@ -196,10 +186,6 @@
+@@ -196,10 +186,6 @@ p, li {
  
  $solar-scroll-bg: rgba(#fff, .15);
  $solar-scroll-thumb: rgba(#fff, .2);
