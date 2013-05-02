@@ -62,7 +62,7 @@ $ patch -u sass/custom/_colors.scss   $HOME/Monokai-Sublime-Text-Octopress/_colo
 $ patch -u sass/partials/_syntax.scss $HOME/Monokai-Sublime-Text-Octopress/_syntax.scss.patch
 ```
 
-If you re-generate your site, you should see the new highlighting in action!
+If you re-generate your site, you should be able to see the new highlighting in action!
 
 
 
