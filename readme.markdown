@@ -12,9 +12,7 @@ The patch worked great, except that it looked much different (for PHP and JavaSc
 So - I made a few adjustments. 
 
 ##Languages and Consistency
-Most of the code I write is either JavaScript or PHP, although I do poke at projects written in C or Python with sticks of varying lengths from time to time. 
-
-So - this patch is optimized for PHP and JavaScript - even then, the theme isn't perfect due to some differences between sublime text and pygments. 
+Most of the code I was writing when I worked on this was either JavaScript or PHP. So - this patch was optimized for those languages. Still, the theme isn't perfect due to some differences between sublime text and pygments.
 
 For example - in PHP, while Sublime Text differentiates between the keywords "class" and "public" (giving the former a color of light blue and the latter a color of bright red), pygments does not - assigning a single css class of ".k" (for keyword presumably) to both. 
 
