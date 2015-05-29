@@ -5,14 +5,14 @@
 
 ---------------
 
-Back in January, bdryanovski created a patch for the solarized syntax highlighting that octopress uses as a front end to its pygments based syntax highlighter. 
+bdryanovski created a patch for the solarized syntax highlighting that octopress uses as a front end to its pygments based syntax highlighter. 
 
 The patch worked great, except that it looked much different (for PHP and JavaScript) than I was used to from Sublime Text's interpretation of the Monokai theme. 
 
 So - I made a few adjustments. 
 
 ##Languages and Consistency
-Most of the code I was writing when I worked on this was either JavaScript or PHP. So - this patch was optimized for those languages. Still, the theme isn't perfect due to some differences between sublime text and pygments.
+Most of the code I was writing back when I worked on this was either JavaScript or PHP. So - this patch was optimized for those languages. Still, the theme isn't perfect due to some differences between sublime text and pygments.
 
 For example - in PHP, while Sublime Text differentiates between the keywords "class" and "public" (giving the former a color of light blue and the latter a color of bright red), pygments does not - assigning a single css class of ".k" (for keyword presumably) to both. 
 
