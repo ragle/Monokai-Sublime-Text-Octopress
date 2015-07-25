@@ -51,7 +51,7 @@ $ cd /path/to/octopress/
 
 Patch the appropriate files:
 ```
-  $ patch -u sass/base/_solarized.scss  $HOME/Monokai-Sublime-Text-Octopress/_solarized.scss.patch
+$ patch -u sass/base/_solarized.scss  $HOME/Monokai-Sublime-Text-Octopress/_solarized.scss.patch
 ```
 ```
 $ patch -u sass/custom/_colors.scss   $HOME/Monokai-Sublime-Text-Octopress/_colors.scss.patch
