@@ -51,13 +51,13 @@ $ cd /path/to/octopress/
 
 Patch the appropriate files:
 ```
-  $ patch -u sass/base/_solarized.scss  $HOME/Monokai-Sublime-Text-Octopress/_solarized.scss.patch
+$ patch -u sass/base/_solarized.scss  $HOME/Monokai-Sublime-Text-Octopress/_solarized.scss.patch
 ```
 ```
 $ patch -u sass/custom/_colors.scss   $HOME/Monokai-Sublime-Text-Octopress/_colors.scss.patch
 ```
 ```
-$ patch -u sass/partials/_syntax.scss $HOME/Monokai-Sublime-Text-Octopress/_syntax.scss.patch
+$ patch --ignore-whitespace -u sass/partials/_syntax.scss $HOME/Monokai-Sublime-Text-Octopress/_syntax.scss.patch
 ```
 
 If you re-generate your site, you should be able to see the new highlighting in action!
